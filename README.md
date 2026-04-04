@@ -17,10 +17,10 @@ The goal is to classify song lyrics into their associated genres using an Ollama
 
 ## Requirements
 Install the following Python packages:
-- ollama &rarr;used to prompt the LLM
-- pandas &rarr;used for loading and manipulating CSV data
+- ollama &rarr; used to prompt the LLM
+- pandas &rarr; used for loading and manipulating CSV data
 - scikit-learn &rarr; used for evaluation metrics
-- tqdm &rarr;shows a progress bar during slow inference
+- tqdm &rarr; shows a progress bar during slow inference
  
 
 
