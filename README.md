@@ -11,7 +11,7 @@ The goal is to classify song lyrics into their associated genres using an Ollama
 
 The model predictions are evaluated using **Precision, Recall, and F1-score**, both overall and per genre.
 
----
+
 
 ## Files
 
@@ -21,7 +21,6 @@ The model predictions are evaluated using **Precision, Recall, and F1-score**, b
 * `genre_predictions_results.csv` — saved model predictions
 * `results_summary.csv` — overall metrics
 
----
 
 ## Requirements
 
@@ -35,7 +34,7 @@ You also need to install **Ollama**:
 
 * https://ollama.com/download
 
----
+
 
 ## Model
 
@@ -49,7 +48,7 @@ To download the model, run:
 ollama pull gemma3
 ```
 
----
+
 
 ## How to Run
 
@@ -77,7 +76,7 @@ ollama pull gemma3
    ```
 6. Run all notebook cells in order.
 
----
+
 
 ### Option 2: Local Machine
 
@@ -93,7 +92,7 @@ ollama pull gemma3
    ```
 3. Run the notebook locally.
 
----
+
 
 ## Notes
 _Before running the notebook in Google Colab, upload `genreLyrics_train.csv` and `genreLyrics_test.csv` to the session storage. The notebook expects them at `/content/genreLyrics_train.csv` and `/content/genreLyrics_test.csv`._
@@ -103,8 +102,6 @@ _Before running the notebook in Google Colab, upload `genreLyrics_train.csv` and
 * Few-shot prompting uses **one example per genre**, which may limit performance.
 
 
-
----
 
 ## Results Summary
 
@@ -116,12 +113,10 @@ _Before running the notebook in Google Colab, upload `genreLyrics_train.csv` and
   * Best: Hip-Hop, Metal
   * Worst: Indie, R&B, Jazz
 
----
 
 ## Reproducibility
 
 * Results may vary slightly due to the nature of LLM outputs.
 * Ensure Ollama is running before executing prompts.
 
----
 
